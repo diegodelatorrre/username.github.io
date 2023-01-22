@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilo.css" type="text/css">
+    <title>CV de la Torre Diego</title>
+    <script>
+        function oscuro() {
+        document.getElementById("art1").style.backgroundColor = "#777";
+        document.getElementById("art1").style.color = "#fff";
+        document.getElementById("section").style.backgroundColor = "#333";
+        document.getElementById("art").style.backgroundColor = "#777";
+        document.getElementById("art").style.color = "#fff";
+        document.getElementById("aside").style.backgroundColor = "#777";
+        document.getElementById("art1").style.color = "#fff";
+        document.getElementById("header").style.backgroundColor = "#183561";
+        document.getElementById("header").style.color = "#666";
+
+        };
+     </script>
+</head>
+<body>
+     <div id="contenedor">
+     <header id="header"> <img src="imagenes/diego4x4.jpg" height="120px" alt="Imagen de Diego de la Torre">
+     <h1>Curriculum Vitae </h1>
+     </header>
+     <nav>
+         <ul>
+             <li><a id="clar" href="Index.html">Inicio</a></li>
+             <li><a id="final" href="#fin">Cambiar temas de pagina</a></li>
+             <li><a id="masinfo" href="Mas_Info.html">Mas info</a></li>
+         </ul>
+     </nav>
+     
+        <aside id="aside"><p id="actpers">Actividades personales</p>
+           <img class="imgaside" src="imagenes/futbol.jfif" alt="imagen de futbol">
+           <img class="imgaside" src="imagenes/voley.jfif" alt="imagen de Voleyball">
+           <img class="imgaside" src="imagenes/basquet.jfif" alt="imagen de Basquetball">
+    
+        </aside>
+         <section id="section">
+             <article id="art1"><h3>Datos personales</h3><br><br>
+               <p>Nombre y apellido: Diego de la Torre</p><br>
+               <p>Domicilio: Calle Falsa 123 Localidad: San justo</p><br>
+               <p>Edad 49 años Fecha de Nacimiento 26 de abril de 1973</p><br>
+               <p>Correo electronico: diegodelatorre@live.com.ar</p><br>
+               <p>Maximo nivel educativo alcanzado: Lic. en Gestión de Tecnología</p>
+             </article>
+             <article id="art"><h3>Experiencia Laboral</h3><br>
+               <p>2017 – Actualmente	Instituto de Formación Docente y Técnica n° 46 – Pueyrredón 1250</p>
+	           <p>Ramos Mejía – Prof EDI 1 y Seminario de Programación</p>
+
+               <p>2014 – Actualmente	E.E.S.T. nº 11 “Islas Malvinas” – M. M. de Güemes 3860, C. Evita</p>
+	           <p>Profesor de Laboratorio de Programación, 4to año.</p>
+
+               <p>2014 – Actualmente	E.E.S.T. nº 10 – M. S. de Thompson y España S/N, C. Madero</p>
+	           <p>Profesor de Laboratorio de Hardware, 5to año.</p>
+
+               <p>2016 – Actualmente	Colegio Monseñor T. Solari – Av. Don Bosco 4817, Morón</p>
+	           <p>Profesor de Inst., Rep., y Mant., de Redes, 7mo año</p>
+             </article>
+         </section>
+         <div id="colores">
+            <button id="claro" onClick="window.location.reload();" >Tema Claro</button>
+            <button id="oscuro" onclick="oscuro()">Tema Oscuro</button>
+    
+         </div>
+     <footer id="fin"><p>Pagina creada por Diego de la Torre &copy;</p></footer>
+</div>  
+
+</body>
+<script src="JS/Jscript.js"></script>  
+</html>
+
